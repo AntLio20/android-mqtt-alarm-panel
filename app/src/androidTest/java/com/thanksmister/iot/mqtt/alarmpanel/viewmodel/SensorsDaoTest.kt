@@ -43,7 +43,7 @@ class SensorsDaoTest {
 
     @After
     fun tearDown() {
-        mDatabase.close();
+        mDatabase.close()
     }
 
     @Test
